@@ -1,0 +1,29 @@
+{
+    "name": "gad-avatars",
+    "source": "src/panel.html",
+    "scripts": {
+        "start": "parcel --https",
+        "build": "parcel build"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.49.0",
+        "@typescript-eslint/parser": "^5.49.0",
+        "buffer": "^5.7.1",
+        "crypto-browserify": "^3.12.0",
+        "eslint": "^8.32.0",
+        "events": "^3.3.0",
+        "parcel": "latest",
+        "process": "^0.11.10",
+        "stream-browserify": "^3.0.0",
+        "typescript": "^4.9.4",
+        "util": "^0.12.5"
+    },
+    "dependencies": {
+        "@types/react": "^18.0.27",
+        "@types/twitch-ext": "^1.24.4",
+        "jsonwebtoken": "^9.0.0",
+        "lodash.debounce": "^4.0.8",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
